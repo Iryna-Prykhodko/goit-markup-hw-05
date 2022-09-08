@@ -70,6 +70,7 @@ img {
   color: #2196f3;
 }
 
+
 .logo-header {
   color: #000000;
 }
@@ -131,6 +132,13 @@ img {
 .current {
   color: var(--second-text-cl);
 }
+.current::after{
+  content: ;
+  width: 48px;
+  height: 4px;
+  background: #2196F3;
+  border-radius: 2px;
+  }
 
 /* HERO */
 
