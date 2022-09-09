@@ -13,6 +13,10 @@
   --accent-bg-cl: #ffffff;
   --second-bg-cl: #2f303a;
   --third-bg-cl: #2196f3;
+
+  /*transition*/
+  --transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .page {
@@ -530,7 +534,7 @@ display: flex;
 align-items: center;
 justify-content: center;
   background-color: rgba(33, 150, 243, 0.9);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--transition);
   
 }
 
