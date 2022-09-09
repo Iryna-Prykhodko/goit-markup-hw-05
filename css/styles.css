@@ -132,13 +132,7 @@ img {
 .current {
   color: var(--second-text-cl);
 }
-.current::after{
-  content: ;
-  width: 48px;
-  height: 4px;
-  background: #2196F3;
-  border-radius: 2px;
-  }
+
 
 /* HERO */
 
@@ -517,9 +511,43 @@ border-radius: 4px;
   gap: 30px;
 }
 
-.item-set {
-  flex-basis: calc((100%-60px) / 3);
+.box-card{
+  position: relative;
+  overflow: hidden;
+  width: 370px;
+height: 294px;
 }
+
+.box-overlay{
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+padding-left: 24px;
+padding-right: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+  background-color: rgba(33, 150, 243, 0.9);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-item-set:hover .box-overlay{
+  transform: translateY(0);
+  
+}
+
+.text-overlay{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
 .list-portfolio-btn {
   display: flex;
   justify-content: center;
