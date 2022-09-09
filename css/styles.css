@@ -514,8 +514,7 @@ border-radius: 4px;
 .box-card{
   position: relative;
   overflow: hidden;
-  width: 370px;
-height: 294px;
+  
 }
 
 .box-overlay{
@@ -532,6 +531,7 @@ align-items: center;
 justify-content: center;
   background-color: rgba(33, 150, 243, 0.9);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .list-item-set:hover .box-overlay{
