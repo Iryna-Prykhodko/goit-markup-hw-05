@@ -416,8 +416,8 @@ img {
   color: #afb1b8;
   background-color: var(--accent-bg-cl);
   border-radius: 50%;
-  transition: fill var(--transition);
-  transition: background-color var(--transition);
+  transition: fill var(--transition),background-color var(--transition);
+
 }
 
 .socials-link:hover,
@@ -450,8 +450,7 @@ img {
   height: 100%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: fill var(--transition);
-  transition: border var(--transition);
+  transition: border var(--transition),fill var(--transition);
 }
 
 .clients-icon {
